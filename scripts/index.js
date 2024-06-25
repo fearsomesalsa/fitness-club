@@ -18,9 +18,9 @@ class App {
     }
 
     async init() {
-        this.setClickHandlers();
         await this.getTariffs();
         this.setTimer();
+        this.setClickHandlers();
     }
 
     setTimer() {
