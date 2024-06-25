@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__text">Скидка действует:</div>
+            <div class="header__timer timer">
+                <div class="timer__time">
+                    <div class="timer__value">02</div>
+                    <div class="timer__measure">минут</div>
+                </div>
+                <div class="timer__divider">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+                <div class="timer__time">
+                    <div class="timer__value">00</div>
+                    <div class="timer__measure">секунд</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__container container">
+            <h1 class="main__title">Выберите подходящий тарифный план</h1>
+            <div class="main__content">
+                <div class="main__image">
+                    <img src="images/img.png" alt="Man image">
+                </div>
+                <div class="main__info">
+                    <div class="main__tariffs" id="tariffs"></div>
+                    <div class="main__text">
+                        Следуя плану на 3 месяца, люди получают в 2 раза лучший результат, чем за 1 месяц
+                    </div>
+                    <div class="agreement">
+                        <input type="checkbox" class="agreement__checkbox" id="agree" checked>
+                        <label for="agree" class="agreement__label">Я соглашаюсь с <a href="#" class="link">Правилами сервиса</a> и  условиями <a href="#" class="link">Публичной оферты.</a></label>
+                    </div>
+                    <div class="main__action">
+                        <button class="button main__button">Купить</button>
+                    </div>
+                    <div class="footnote">
+                        Нажимая «Купить», Пользователь соглашается на автоматическое списание денежных средств по истечению купленного периода. Дальнейшие списания по тарифам участвующим в акции осуществляются по полной стоимости согласно оферте.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="popup-wrapper" id="popup-wrapper" style="display:none;">
+        <div class="popup">
+            <div class="popup__special-offer">горящее предложение</div>
+            <div class="popup__close" id="popup-close">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 6L6 18" stroke="#CED1D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6 6L18 18" stroke="#CED1D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <h2 class="popup__title">Не упусти свой <span class="accent">последний шанс</span></h2>
+            <div class="popup__sale">
+                <span>Мы знаем, как трудно начать.. <span class="bold">Поэтому!</span></span>
+                <div class="popup__sale-text">Дарим скидку для <span class="accent">лёгкого старта</span> 🏃‍♂️</div>
+            </div>
+            <div>Посмотри, что мы для тебя приготовили 🔥</div>
+            <div class="offers" id="offers"></div>
+            <div class="popup__action">
+                <button class="button popup__button">Начать тренироваться</button>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="loader-wrapper" id="loader-wrapper">
+        <span class="loader"></span>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

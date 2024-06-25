@@ -1,0 +1,257 @@
+@media screen and (max-width: 425px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header {
+        padding: 13px 0 26px;
+        font-family: 'PT Root UI Medium', sans-serif;
+    }
+
+    .header__text {
+        font-size: 16px;
+        margin-right: 11px;
+    }
+
+    .timer__divider {
+        margin: 11px 4px 0;
+    }
+
+    .dot {
+        width: 4px;
+        height: 4px;
+        margin-bottom: 6px;
+    }
+
+    .timer__value {
+        font-size: 40px;
+    }
+    
+    .timer__measure {
+        top: 35px;
+        left: 12px;
+        font-size: 14px;
+    }
+
+    .timer__time:last-child .timer__measure {
+        left: 11px;
+    }
+
+    .main {
+        padding: 20px 0;
+    }
+
+    .main__title {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .main__content {
+        display: block;
+    }
+
+    .main__image {
+        max-width: 277px;
+        margin: 0 auto;
+    }
+
+    .main__tariffs {
+        display: block;
+        margin-bottom: 12px;
+    }
+
+    .tariff {
+        padding: 36px 87px 26px 24px;
+        grid-template-columns: 100px minmax(min-content, 1fr);
+        column-gap: 24px;
+        margin-top: 10px;
+        min-height: 140px;
+    }
+
+    .tariff.tariff_padding_small {
+        padding-left: 24px;
+        padding-right: 63px;
+    }
+
+    .tariff.tariff_width_max {
+        grid-column: 1 / 2;
+        grid-template-columns: 100px 1fr;
+        column-gap: 24px;
+        justify-items: initial;
+        padding: 36px 63px 26px 24px;
+    }
+
+    .tariff__duration {
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+
+    .tariff.tariff_padding_small .tariff__duration {
+        margin-bottom: 10px;
+    }
+
+    .tariff.tariff_width_max .tariff__duration {
+        font-size: 24px;
+        margin-top: 0;
+    }
+
+    .tariff__prices {
+        margin: initial;
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+        width: fit-content;
+    }
+
+    .tariff__new-price {
+        font-size: 44px;
+        text-align: left;
+    }
+
+    .tariff__old-price {
+        font-size: 20px;
+    }
+
+    .tariff__goal {
+        font-size: 14px;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .tariff.tariff_padding_small .tariff__goal {
+        max-width: 100%;
+    }
+
+    .tariff.tariff_width_max .tariff__goal {
+        max-width: 100%;
+        justify-self: unset;
+    }
+
+    .tariff__discount {
+        width: 50px;
+        height: 50px;
+        top: 4px;
+        right: 9px;
+        font-size: 13px;
+        background-size: cover;
+    }
+
+    .main__text {
+        font-size: 14px;
+        margin-bottom: 36px;
+    }
+
+    .agreement {
+        margin-bottom: 22px;
+    }
+
+    .main__button {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .footnote {
+        display: none;
+    }
+
+    .popup-wrapper {
+        display: block;
+        padding: 60px 20px;
+        overflow-y: auto;
+    }
+
+    .popup {
+        min-width: unset;
+        padding: 50px 19px 20px 20px;
+        font-size: 15px;
+    }
+
+    .popup__special-offer {
+        font-size: 14px;
+        left: 0;
+    }
+
+    .popup__close {
+        top: 10px;
+        right: 10px;
+    }
+
+    .popup__title {
+        font-size: 24px;
+        margin: 0 auto 22px;
+        text-align: left;
+    }
+
+    .popup__sale {
+        text-align: left;
+        margin-bottom: 26px;
+    }
+
+    .popup__sale-text {
+        padding: 12px 5px 14px 23px;
+        width: 100%;
+        margin-left: initial;
+        margin-right: initial;
+    }
+
+    .offers {
+        margin-top: 14px;
+        display: block;
+    }
+
+    .offer__label {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 24px 20px 18px;
+        width: 100%;
+        margin-top: 6px;
+    }
+
+    .offer__duration {
+        order: 1;
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .offer__old-price {
+        order: 3;
+        align-self: flex-end;
+        padding-bottom: 9px;
+    }
+
+    .offer__divider {
+        display: none;
+    }
+
+    .offer__lower-part {
+        order: 2;
+    }
+
+    .offer__new-price {
+        font-size: 44px;
+        margin-right: 6px;
+        margin-top: 7px;
+    }
+    
+    .offer__discount {
+        width: 40px;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    .offer__new-price {
+        order: 0;
+    }
+
+    .popup__action {
+        margin-top: 20px;
+    }
+
+    .popup__button {
+        width: 100%;
+    }
+
+
+}
